@@ -8,6 +8,6 @@ function get_random(max_random) {
 // add the populate_list_random into this file utils.js
 
 // create an HTML page, invite the utils.js (script src...) 
-// create a random array of 20 items with random of numbers between 1-1000
+// create a random array of 20 items with random of numbers between 1-1000 [populate_list_random]
 // call get_max and print its result
 // call get_min and print its result
