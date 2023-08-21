@@ -30,25 +30,6 @@
         const avg = sum / numbers.length
         document.write(`<p>The average is: ${avg}</p>`)
 
-        // create an empty list
-        // fillup the list with 10 random numbers between 1-100 (using Math.random + push)
-        // print all the numbers (in a loop like we did here)
-        // print only the even (zugi) numbers
-
-        // find and print the smallest item in the array
-        // find and print the biggest item in the array
-
-        for (let i = 1; i <= 10; i++) {
-            let number = Math.floor(Math.random() * 100) + 1
-            numbers.push(number)
-        }
-        document.write(`<p>The array is: ${numbers.join(' , ')}</p>`)
-        for (let i = 0; i < numbers.length; i++) {
-            if (numbers[ i ] % 2 == 0) {
-                document.write(`<p>${numbers[ i ]}</p>`)
-            }
-        }        
-
     </script>
 </body>
 </html>
