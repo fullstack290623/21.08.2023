@@ -2,6 +2,16 @@ function get_random(max_random) {
     return Math.floor(Math.random() * max_random) + 1
 }
 
+function get_max(numbers) {
+    let max = numbers[0]
+    for (let i = 1; i < numbers.length; i++) {
+        if (numbers[ i ] > max) {
+            max = numbers[ i ]
+        }
+    } 
+    return max
+}
+
 // take code from array_loops.html
 // create a function get_max --> which gets an array as a parameter and returns the max value
 // create a function get_min --> which gets an array as a parameter and returns the min value
